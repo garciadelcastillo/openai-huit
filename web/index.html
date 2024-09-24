@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple HTTP Client</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Setup</legend>
+
+        <div id="controls-setup">
+            URL: <input id="server-address" value="https://go.apis.huit.harvard.edu/ais-openai-direct/v1/chat/completions" style="width: 800px;">
+        </div>
+        <div>
+            Request Type: 
+            <select name="verb" class="dropdown" id="verb-selector">
+                <option value="GET">GET</option>
+                <option value="POST" selected>POST</option>
+              </select>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Request Headers</legend>
+
+        <textarea id="request-headers">
+Content-Type: application/json
+Accept-Encoding: *
+api-key: YOUR API KEY HERE</textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Request Body</legend>
+
+        <textarea id="request-content">
+{
+    "model": "gpt-4o",
+    "messages": [{
+        "role": "user", 
+        "content": "To what extent does scientific conservatism limit new discoveries?"
+    }],
+    "temperature": 0.7
+}</textarea>
+
+        <div>
+            <button id="request-button">Request</button>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Response Body</legend>
+
+        <textarea id="response-content"></textarea> 
+    </fieldset>
+
+    <!-- Load the main script at the end of the page, when all the DOM elements are already present -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
