@@ -1,3 +1,11 @@
+// This is currently yielding this error?
+// {
+//   fault: {
+//     faultstring: 'Invalid ApiKey for given resource',
+//     detail: { errorcode: 'oauth.v2.InvalidApiKeyForGivenResource' }
+//   }
+// }
+
 const process = require('process');
 
 const endPoint = "https://go.apis.huit.harvard.edu/ais-openai-direct/v1/models";
