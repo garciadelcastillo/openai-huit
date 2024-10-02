@@ -23,8 +23,10 @@ fetch(endPoint, reqParams)
     console.log(json);
     console.log();
     
-    const model_names = json.data.map( model => model.id )
-      .sort( (a,b) => a.localeCompare(b) );
-    console.log(model_names);
+    if (json.data) {
+      const model_names = json.data.map( model => model.id )
+        .sort( (a,b) => a.localeCompare(b) );
+      console.log(model_names);
+    }
   });
 
