@@ -27,7 +27,7 @@ requestButton.onclick = () => {
       return acc;
     }, {});
 
-  console.log(headerPairs);
+  // console.log(headerPairs);
 
   // Create request parameters
   const reqParams = {
@@ -39,6 +39,9 @@ requestButton.onclick = () => {
   if (verb !== 'GET') {
     reqParams.body = content;
   }
+
+  console.log("Performing request to:", address);
+  console.log("Request Params:", reqParams);
 
   // Send the request and haldle the response
   fetch(address, reqParams)

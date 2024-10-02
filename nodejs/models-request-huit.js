@@ -15,6 +15,8 @@ console.log("Sending request to:", endPoint);
 const reqParams = {
   method: 'GET',
   headers: {
+    // 'Content-Type': 'application/json',
+    'Accept-Encoding': '*',  // apigee was giving encoding problems 
     'api-key': process.env.HUIT_API_KEY_OPENAI,
   },
 }
