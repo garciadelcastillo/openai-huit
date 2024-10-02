@@ -7,7 +7,7 @@ const reqBody = {
   "model": "gpt-4o",
   "messages": [{
     "role": "user",
-    "content": "To what extent does scientific conservatism limit new discoveries?"
+    "content": "How would you define the concept of 'Enactive Design'? How does it relate to the concept of 'Enactivism' in the cognitive sciences?"
   }],
   "temperature": 0.7
 };
