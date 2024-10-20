@@ -1,2 +1,5 @@
-# openai-huit
-A quick test to use the OpenAI API through HUIT's Apigee proxy
+# OpenAI_HUIT
+
+Sample projects to test the use of OpenAI's API through HUIT's Apigee proxy.
+
+https://github.com/garciadelcastillo/openai-huit
