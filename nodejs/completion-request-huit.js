@@ -4,12 +4,12 @@ const process = require('process');
 
 const endPoint = "https://go.apis.huit.harvard.edu/ais-openai-direct/v1/chat/completions";
 const reqBody = {
-  "model": "gpt-4o",
+  "model": "gpt-5",
   "messages": [{
     "role": "user",
     "content": "How would you define the concept of 'Enactive Design'? How does it relate to the concept of 'Enactivism' in the cognitive sciences?"
   }],
-  "temperature": 0.7
+  // "temperature": 0.7
 };
 
 console.log("Sending request:", reqBody);
