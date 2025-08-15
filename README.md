@@ -5,7 +5,7 @@ Sample projects to test the use of OpenAI's API through HUIT's Apigee proxy.
 https://github.com/garciadelcastillo/openai-huit
 
 
-## 2025.08.15 Model tests
+## 2025.08.15 Model comparison tests
 
 > "How would you define the concept of 'Enactive Design'? How does it relate to the concept of 'Enactivism' in the cognitive sciences?"
 
