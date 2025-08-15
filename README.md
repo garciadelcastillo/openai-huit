@@ -12,6 +12,7 @@ https://github.com/garciadelcastillo/openai-huit
 ### GTP-4o
 
 RESPONSE # 0
+
 Enactive Design is an approach that integrates principles from enactivism in cognitive science into the design process. Enactivism is a theoretical framework in the cognitive sciences that emphasizes the active role of organisms in shaping their environment and cognition. It proposes that cognition arises through a dynamic interaction between an organism and its environment, rather than being a process of passive information processing.
 
 Enactive Design, therefore, focuses on creating environments, products, or systems that facilitate this dynamic interaction between users and their surroundings. It encourages designers to think of users as active participants whose experiences and actions are integral to the design process. This approach often involves iterative design practices that adapt to users' evolving needs and promote engagement, learning, and adaptation.
@@ -25,10 +26,13 @@ Overall, Enactive Design leverages the insights from enactivism to create more m
 ### GPT-5
 
 RESPONSE # 0
+
 Short definition
+
 Enactive design is a design approach that treats products, services, and environments as partners in people’s ongoing activity, not as channels for delivering information. It aims to shape the sensorimotor couplings, feedback loops, and social interactions through which users “bring forth” meaning, skills, and practices. In other words, it designs for enactment—how people will move, feel, coordinate, and learn with an artifact in real situations—rather than for static functions or mental representations.
 
 Relation to enactivism
+
 Enactivism in cognitive science holds that cognition is embodied, situated, and enacted: it arises from an autonomous agent’s active coupling with its environment. Key ideas include:
 - Sense-making: meaning is generated in activity, not looked up in the head.
 - Structural coupling and adaptivity: agent and environment co-adapt over time.
